@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 25, 25);
+}
+.innerGames{
+    width: 50px;
+}
