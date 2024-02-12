@@ -9,3 +9,43 @@ body{
 .innerGames{
     width: 50px;
 }
+.wppLogo{
+    width: 40px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.linkRegistro{
+    width: 40px;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 70px;
+    right: 20px
+}
+main{
+    color: white;
+
+}
+.mainMio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.juegos{
+    width: 200px;
+    margin: 10px;
+    padding: 4px;
+    opacity: .4;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+.juegos:hover{
+    opacity: 1;
+    border: 3px solid white;
+
+    
+}
