@@ -46,6 +46,13 @@ main{
 .juegos:hover{
     opacity: 1;
     border: 3px solid white;
-
-    
+}
+@media (max-width: 992px){
+    .wppLogo{
+        width: 35px;
+    }
+    .linkRegistro{
+        width: 35px;
+        bottom: 65px;
+    }
 }
