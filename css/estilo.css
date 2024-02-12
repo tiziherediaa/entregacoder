@@ -9,23 +9,7 @@ body{
 .innerGames{
     width: 50px;
 }
-.wppLogo{
-    width: 40px;
-    padding: 5px;
-    background-color: aliceblue;
-    border-radius: 20px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-.linkRegistro{
-    width: 40px;
-    background-color: white;
-    border-radius: 20px;
-    position: fixed;
-    bottom: 70px;
-    right: 20px
-}
+
 main{
     color: white;
 
@@ -52,14 +36,29 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.botonComprar:hover{
-    
-}
+
 footer{
     background-color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.wppLogo{
+    width: 40px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 55px;
+    right: 20px;
+}
+.linkRegistro{
+    width: 40px;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px
 }
 @media (max-width: 992px){
     .wppLogo{
@@ -67,6 +66,6 @@ footer{
     }
     .linkRegistro{
         width: 35px;
-        bottom: 65px;
+        bottom: 95px;
     }
 }
