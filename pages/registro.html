@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Inner Games</title>
 </head>
@@ -23,13 +24,13 @@
                       Productos
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./index3.html">PS4</a></li>
-                      <li><a class="dropdown-item" href="#">PS5</a></li>
+                      <li><a class="dropdown-item" href="./ps4.html">PS4</a></li>
+                      <li><a class="dropdown-item" href="./ps5.html">PS5</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Accesorios</a></li>
                     </ul>
                     <li class="nav-item">
-                      <a class="nav-link" href="./index2.html">Ayuda</a>
+                      <a class="nav-link" href="./ayuda.html">Ayuda</a>
                     </li>
                   </li>
                   <li class="nav-item">
@@ -45,51 +46,39 @@
           </nav>
     </header>
     <main>
-      <h1 class="p-5">Juegos de PS5</h1>
-      <section class="cardsJuegos p-5">
-        <div class="card" style="width: 18rem;">
-            <img src="../foto/f123.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">F1 23</h5>
-              <p class="card-text">Sé la última persona en pisar el freno en EA Sports F1® 23, el videojuego oficial del 2023 FIA Formula One World Championship™. </p>
-              <a href="#" class="btn btn-primary botonComprar">Comprar</a>
+      <h1 class="p-5 text-center">Registro</h1>
+      <section class="formRegistro p-5">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text text-light">No compartiremos sus datos con nadie.</div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="../foto/motogp23.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">MotoGP 23</h5>
-              <p class="card-text">Adelanta a tus oponentes y cruza la línea de meta: vive el sueño de ser el próximo campeón con el nuevo MotoGP™23 más increíble y desafiante que nunca.</p>
-              <a href="#" class="btn btn-primary botonComprar">Comprar</a>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="../foto/gt7.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Gran Turismo 7</h5>
-              <p class="card-text">Toma el volante de más de 400 autos y maneja en más de 90 pistas en diferentes condiciones climáticas.</p>
-              <a href="#" class="btn btn-primary botonComprar">Comprar</a>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Acepto los <a href="./index6.html">terminos y condiciones</a></label>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="../foto/nba2k23.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">NBA 2K23</h5>
-              <p class="card-text">Compite con tus equipos y estrellas favoritos de la NBA y la WNBA, y disfruta de un juego realista al máximo. </p>
-              <a href="#" class="btn btn-primary botonComprar">Comprar</a>
-            </div>
-          </div>
+            <button type="submit" class="btn btn-primary">Registrarme</button>
+        </form>
       </section>
       <a href="https://w.app/7ObWUP">
         <img src="../foto/wppLogo.png" alt="Link a WhatsApp" class="wppLogo">
       </a>
-      <a href="./index5.html">
+      <a href="#">
         <img src="../foto/logoPersona.png" alt="Registrarse" class="linkRegistro">
       </a>
     </main>
     <footer>
-        <p class="lead text-center">Todos los derechos reservados©2024 Inner Games</p>
+      <p class="lead text-center">Todos los derechos reservados©2024 Inner Games</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+    
 </body>
 </html>

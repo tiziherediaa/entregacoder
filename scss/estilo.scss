@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 25, 25);
+    header{
+        div{
+            a{
+                img{
+                width: 50px;
+                }
+            }
+        }
+    }
+    main{
+        color: white;
+        .mainMio{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .juegos{
+                width: 200px;
+                margin: 10px;
+                padding: 4px;
+                opacity: .4;
+                border: 3px solid black;
+                border-radius: 25px;
+                &:hover{
+                    opacity: 1;
+                    border: 3px solid white;
+                }
+            }
+        }
+        .wppLogo{
+            width: 40px;
+            padding: 5px;
+            background-color: aliceblue;
+            border-radius: 20px;
+            position: fixed;
+            bottom: 55px;
+            right: 20px;
+        }
+        .linkRegistro{
+            width: 40px;
+            background-color: white;
+            border-radius: 20px;
+            position: fixed;
+            bottom: 100px;
+            right: 20px
+        }
+        .cardsJuegos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    footer{
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 992px){
+    .wppLogo{
+        width: 35px;
+    }
+    .linkRegistro{
+        width: 35px;
+        bottom: 95px;
+    }
+}
